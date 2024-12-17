@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Por favor completa el Siguiente formulario para el inicio de sesión</h1>
+</header>
+
+<main>
+    <form action="Nombre">
+        <label for="Nombre"></label>
+        <span>Nombre</span>
+        <input type="text" name="Nombre" id="Nombre" autocomplete="name" required>
+
+        <form action="Correo">
+            <label for="Correo"></label>
+            <span>Correo</span>
+            <input type="email" name="Email"  id="Email" autocomplete="email" required>
+
+            <form action="Contraseña">
+                <label for="Contraseña"></label>
+                <span>Contraseña</span>
+                <input type="password" name="Contraseña" id="Constraseña" autocomplete="current-password" required>
+
+                <form action="Fecha de nacimiento">
+                    <label for="Fecha de nacimiento"></label>
+                    <span>Fecha de Nacimiento</span>
+                    <input type="datetime-local" name="Date" id="Date" autocomplete="bday" required>
+                    <input type="button" value="Enviar">
+
+                    <input list="Cursos"/>
+ <datalist id="Cursos">
+            <option value="Css"></option>
+            <option value="Html"></option>
+            <option value="JavaScript"></option>
+            <option value="C"></option>
+            <option value="Java"></option>
+        </datalist>
+        
+    </form>
+
+    <select name="Cursos" id="Cursos">
+       <option value="Css">Css</option>
+       <option value="Html">Html</option>
+       <option value="JavaScript">JavaScript</option>
+       <option value="C">C</option>
+       <option value="Java">Java</option>
+    </select>
+</main>
+
+
+    
+</body>
+</html>

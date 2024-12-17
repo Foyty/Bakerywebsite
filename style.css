@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Header */
+.header_color {
+    background-color: rgb(249, 237, 211);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo_header {
+    width: 70px;
+    height: 70px;
+}
+
+.title {
+    font-size: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(67, 32, 24);
+    
+}
+
+#header_barsearch {
+    width: 50%;
+    padding: 8px;
+    border: 2px solid rgb(67, 32, 24);
+    border-radius: 8px;
+}
+
+.nav_bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+}
+
+.nav_bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav_bar a:hover {
+    color: rgb(255, 204, 102);
+}
+
+/* Main Content */
+main {
+    background-color: rgb(67, 32, 24);
+    padding: 20px 0;
+}
+
+.main_section {
+    margin: 20px auto;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255, 204, 102);
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.image_gallery img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image_gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(50, 50, 50);
+    color: rgb(230, 230, 230);
+    padding: 20px 0;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer_about,
+.footer_contact,
+.footer_social {
+    max-width: 300px;
+}
+
+.footer h3 {
+    color: rgb(255, 204, 102);
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer_social a {
+    color: rgb(255, 204, 102);
+    text-decoration: none;
+}
+
+.footer_social a:hover {
+    text-decoration: underline;
+}
+
+.footer_copy {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
